@@ -2,7 +2,8 @@ const { Client, LocalAuth } = require('whatsapp-web.js')
 const qrcode = require('qrcode-terminal')
 const axios = require('axios')
 
-const API = "https://YOUR-RAILWAY-URL"
+const API = "https://wa-bot-server-production-6ead.up.railway.app"
+
 
 const client = new Client({
   authStrategy: new LocalAuth({ dataPath: './auth' }),
